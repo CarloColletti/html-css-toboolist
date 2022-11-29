@@ -9,6 +9,7 @@
     background-color: #f6f8f9;
     margin: auto;
     border:2px solid #f6f8f9;
+    
 }
 
 .main-cont{
@@ -21,15 +22,34 @@
 
 /* utility */
 .linea-divisoria{
+    padding: 10px;
     border-bottom:5px solid #f6f8f9;
 }
 
 details>summary {
     padding: 12px;
+    padding-left: 20px;
 }
 
 details>p {
     padding: 8px;
+}
+
+div>button{
+    border: 2px solid #c5cbd0;
+    background-color: #ffffff;
+    border-radius: 10%;
+    font-size: 14px;
+    text-align: center;
+    padding: 4px 10px;
+    color: #c5cbd0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #47adf1;
+    color: white;
+    border: none;
 }
 /* header  */
 
@@ -37,5 +57,6 @@ header{
     background-color: white;
     font-size: 26px;
     padding-left: 15px; 
+    
 }
 
