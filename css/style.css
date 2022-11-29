@@ -5,7 +5,7 @@
 
 /* contenitore */
 .contenitore{
-    width: 1200px;
+    width: 1000px;
     background-color: #f6f8f9;
     margin: auto;
     border:2px solid #f6f8f9;
@@ -14,20 +14,27 @@
 .main-cont{
     width: 800px;
     background-color: white;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 /* utility */
 .linea-divisoria{
-    border-bottom:1px solid #f6f8f9;
+    border-bottom:5px solid #f6f8f9;
 }
 
+details>summary {
+    padding: 12px;
+}
 
+details>p {
+    padding: 8px;
+}
 /* header  */
 
 header{
     background-color: white;
     font-size: 26px;
 }
+
